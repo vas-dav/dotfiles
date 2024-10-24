@@ -1,0 +1,8 @@
+#! /usr/bin/bash
+
+set -xe
+
+# Create/Update a link to actual config files
+ln -sf zshrc /home/${USER}/.zshrc
+ln -sf vimrc /home/${USER}/.vimrc
+
